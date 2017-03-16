@@ -1,7 +1,7 @@
 function getDataFromApi(searchTerm, callback) {
     $.getJSON("https://www.googleapis.com/youtube/v3/search", {
         part: "snippet",
-        key: "AIzaSyBt0xUvvQ_roGDtew8dmfiWmzfkxtgVw68",
+        key: "Your Youtube Data API Key here",
         q: searchTerm
     }, callback);
 }
